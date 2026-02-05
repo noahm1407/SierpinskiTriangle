@@ -1,24 +1,24 @@
-int size = 1;
+int siz = 1;
 
 public void setup()
 {
-size(485,485);
+siz(485,485);
 background(0);
 }
 public void draw()
 {
-sierpinski(0,485,size);
+sierpinski(0,485,siz);
 }
 public void mousePressed()
 {
 
-if(size < 180){
-size*=3;
+if(siz < 180){
+siz*=3;
 background(0);}
-else if (size < 360)
-size*=2;
-else if (size >= 360){
-size = size/360;
+else if (siz < 360)
+siz*=2;
+else if (siz >= 360){
+siz = siz/360;
 background(0);
 }}
 
