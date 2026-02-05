@@ -2,8 +2,8 @@ int size = 1;
 
 public void setup()
 {
-background(0);
 size(485,485);
+background(0);
 }
 public void draw()
 {
