@@ -18,7 +18,7 @@ background(0);}
 else if (siz < 360)
 siz*=2;
 else if (siz >= 360){
-siz = siz/360;
+siz = 1;
 background(0);
 }}
 
