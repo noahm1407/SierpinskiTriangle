@@ -2,7 +2,7 @@ int siz = 1;
 
 public void setup()
 {
-siz(485,485);
+size(485,485);
 background(0);
 }
 public void draw()
